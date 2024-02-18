@@ -1,14 +1,14 @@
 class Circle {
-    constructor(radius,color){
+    constructor(Radius,Color){
     this.radius = 1.0;
     this.color = "Red";
     }
-getRadius(radius)
+getRadius()
 {
     this.radius = 3.0;
     return `${this.radius}`; //Get the radius
 }
-getColor(color){
+getColor(){
     this.color = "Blue";
     return `${this.color}`;
 }
@@ -16,7 +16,7 @@ toString(){
     return `Circle : [radius = ${this.radius}, color = ${this.color}]`;
 
 }
-getArea(area,r){
+getArea(r,area){
     r = this.radius;
     area = Math.PI * r * r ; //Area of a circle is A = πr^2
     return `${area}`; 
@@ -35,8 +35,8 @@ console.log(`Radius before set : ${Radius.radius}, Color before set : ${Radius.c
 console.log("Radius set to : ",setRadius.getRadius());
 console.log("Color set to : ",setColor.getColor());
 console.log(Radius.toString());
-console.log(`Area before radius value set : ${Radius.getArea()},
-Area after radius value set : ${setRadius.getArea()}`); 
+ console.log(`Area before radius value set : ${Radius.getArea()},
+ Area after radius value set : ${setRadius.getArea()}`); 
 console.log(`Circumference before radius value set : ${Radius.getCircumference()},
 Circumference after radius value set : ${setRadius.getCircumference()}`); 
 
