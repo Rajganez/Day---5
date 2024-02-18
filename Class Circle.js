@@ -39,3 +39,13 @@ console.log(`Area before radius value set : ${Radius.getArea()},
 Area after radius value set : ${setRadius.getArea()}`); 
 console.log(`Circumference before radius value set : ${Radius.getCircumference()},
 Circumference after radius value set : ${setRadius.getCircumference()}`); 
+
+//Output :
+// Radius before set : 1.00, Color before set : Red
+// Radius set to :  3
+// Color set to :  Blue
+// Circle : [radius = 1, color = Red]
+// Area before radius value set : 3.141592653589793,
+// Area after radius value set : 28.274333882308138
+// Circumference before radius value set : 6.283185307179586,
+// Circumference after radius value set : 18.84955592153876
