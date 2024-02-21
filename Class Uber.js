@@ -5,7 +5,6 @@ class Uber{
        this.model = model;
        this.type = type;
        
-       
     }
 getPrice(inr,fare)
 {
@@ -42,6 +41,6 @@ cars.push(new Uber("Cresta","SUV"));
 let getPrice = new Uber;
 for(let i in cars){
     console.log(cars[i].getPrice());
+    
 }
-console.log(`Available Cars : ${cars.model}`);
     
